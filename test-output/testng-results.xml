@@ -1,25 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="15" total="16" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-03T16:23:16 UYT" name="Default suite" finished-at="2021-08-03T16:23:39 UYT" duration-ms="23877">
+  <suite started-at="2021-08-12T12:03:12 UYT" name="Suite" finished-at="2021-08-12T12:05:16 UYT" duration-ms="124495">
     <groups>
     </groups>
-    <test started-at="2021-08-03T16:23:16 UYT" name="Default test" finished-at="2021-08-03T16:23:39 UYT" duration-ms="23877">
+    <test started-at="2021-08-12T12:03:12 UYT" name="Test" finished-at="2021-08-12T12:05:16 UYT" duration-ms="124495">
       <class name="WSR.WSRs.WSRPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@1725dc0f]" started-at="2021-08-03T16:23:16 UYT" name="setup" finished-at="2021-08-03T16:23:19 UYT" duration-ms="3427" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:12 UYT" name="setup" finished-at="2021-08-12T12:03:16 UYT" duration-ms="4557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="wsrSendRecordToManager()[pri:0, instance:WSR.WSRs.WSRPageTest@1725dc0f]" started-at="2021-08-03T16:23:19 UYT" name="wsrSendRecordToManager" finished-at="2021-08-03T16:23:39 UYT" duration-ms="19792" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:12 UYT" name="setup" finished-at="2021-08-12T12:03:17 UYT" duration-ms="4952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:12 UYT" name="setup" finished-at="2021-08-12T12:03:16 UYT" duration-ms="4745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:12 UYT" name="setup" finished-at="2021-08-12T12:03:17 UYT" duration-ms="5343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:12 UYT" name="setup" finished-at="2021-08-12T12:03:16 UYT" duration-ms="4368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewHeaderWithoutName()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:16 UYT" name="createNewHeaderWithoutName" finished-at="2021-08-12T12:03:43 UYT" duration-ms="27144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewHeaderWithoutName -->
+        <test-method signature="createNewHeaderWithWrongInput()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:16 UYT" name="createNewHeaderWithWrongInput" finished-at="2021-08-12T12:03:50 UYT" duration-ms="34139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewHeaderWithWrongInput -->
+        <test-method signature="createNewHeader()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:16 UYT" name="createNewHeader" finished-at="2021-08-12T12:03:43 UYT" duration-ms="26634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewHeader -->
+        <test-method signature="createNewHeaderWithoutUser()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:17 UYT" name="createNewHeaderWithoutUser" finished-at="2021-08-12T12:03:42 UYT" duration-ms="25081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewHeaderWithoutUser -->
+        <test-method signature="createNewHeaderWithoutProperEmail()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:17 UYT" name="createNewHeaderWithoutProperEmail" finished-at="2021-08-12T12:03:42 UYT" duration-ms="25054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewHeaderWithoutProperEmail -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:42 UYT" name="close" finished-at="2021-08-12T12:03:43 UYT" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:42 UYT" name="close" finished-at="2021-08-12T12:03:43 UYT" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:43 UYT" name="close" finished-at="2021-08-12T12:03:44 UYT" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:43 UYT" name="setup" finished-at="2021-08-12T12:03:47 UYT" duration-ms="3584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:43 UYT" name="close" finished-at="2021-08-12T12:03:44 UYT" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:43 UYT" name="setup" finished-at="2021-08-12T12:03:47 UYT" duration-ms="3689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:44 UYT" name="setup" finished-at="2021-08-12T12:03:47 UYT" duration-ms="3074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:44 UYT" name="setup" finished-at="2021-08-12T12:03:47 UYT" duration-ms="3395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="employeeEditHeader()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:47 UYT" name="employeeEditHeader" finished-at="2021-08-12T12:04:07 UYT" duration-ms="20252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeEditHeader -->
+        <test-method signature="errorCreatingHeaderOneAllowedPerUser()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:47 UYT" name="errorCreatingHeaderOneAllowedPerUser" finished-at="2021-08-12T12:04:11 UYT" duration-ms="24656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorCreatingHeaderOneAllowedPerUser -->
+        <test-method signature="employeeEditHeaderCancelAndValidate()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:47 UYT" name="employeeEditHeaderCancelAndValidate" finished-at="2021-08-12T12:04:07 UYT" duration-ms="20350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeEditHeaderCancelAndValidate -->
+        <test-method signature="wsrBodyCreation()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:47 UYT" name="wsrBodyCreation" finished-at="2021-08-12T12:04:23 UYT" duration-ms="35622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wsrBodyCreation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:50 UYT" name="close" finished-at="2021-08-12T12:03:51 UYT" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:51 UYT" name="setup" finished-at="2021-08-12T12:03:54 UYT" duration-ms="2841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wsrBodyValidateSprintDatesEndBeforeStart()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:03:54 UYT" name="wsrBodyValidateSprintDatesEndBeforeStart" finished-at="2021-08-12T12:04:41 UYT" duration-ms="47057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wsrBodyValidateSprintDatesEndBeforeStart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:07 UYT" name="close" finished-at="2021-08-12T12:04:09 UYT" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:07 UYT" name="close" finished-at="2021-08-12T12:04:09 UYT" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:09 UYT" name="setup" finished-at="2021-08-12T12:04:13 UYT" duration-ms="4040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:09 UYT" name="setup" finished-at="2021-08-12T12:04:12 UYT" duration-ms="3694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:11 UYT" name="close" finished-at="2021-08-12T12:04:12 UYT" duration-ms="1075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method signature="wsrBodyValidationDaysFieldsEmpty()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:12 UYT" name="wsrBodyValidationDaysFieldsEmpty" finished-at="2021-08-12T12:04:59 UYT" duration-ms="46880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wsrBodyValidationDaysFieldsEmpty -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:12 UYT" name="setup" finished-at="2021-08-12T12:04:16 UYT" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wsrBodyValidateSprintDatesSameDate()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:13 UYT" name="wsrBodyValidateSprintDatesSameDate" finished-at="2021-08-12T12:04:59 UYT" duration-ms="45855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wsrBodyValidateSprintDatesSameDate -->
+        <test-method signature="wsrBodyValidationExtraHours()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:16 UYT" name="wsrBodyValidationExtraHours" finished-at="2021-08-12T12:04:54 UYT" duration-ms="38697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wsrBodyValidationExtraHours -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:23 UYT" name="close" finished-at="2021-08-12T12:04:24 UYT" duration-ms="1513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:24 UYT" name="setup" finished-at="2021-08-12T12:04:28 UYT" duration-ms="3730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wsrBodyValidationFieldsPresent()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:28 UYT" name="wsrBodyValidationFieldsPresent" finished-at="2021-08-12T12:04:51 UYT" duration-ms="23013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wsrBodyValidationFieldsPresent -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:41 UYT" name="close" finished-at="2021-08-12T12:04:46 UYT" duration-ms="4867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:46 UYT" name="setup" finished-at="2021-08-12T12:04:49 UYT" duration-ms="3338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wsrBodyValidationStoriesAmount()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:49 UYT" name="wsrBodyValidationStoriesAmount" finished-at="2021-08-12T12:05:15 UYT" duration-ms="26102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wsrBodyValidationStoriesAmount -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:51 UYT" name="close" finished-at="2021-08-12T12:04:52 UYT" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:52 UYT" name="setup" finished-at="2021-08-12T12:04:55 UYT" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:54 UYT" name="close" finished-at="2021-08-12T12:04:55 UYT" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method signature="wsrSendRecordToManager()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:55 UYT" name="wsrSendRecordToManager" finished-at="2021-08-12T12:05:13 UYT" duration-ms="17636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wsrSendRecordToManager -->
-        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@1725dc0f]" started-at="2021-08-03T16:23:39 UYT" name="close" finished-at="2021-08-03T16:23:39 UYT" duration-ms="629" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:59 UYT" name="close" finished-at="2021-08-12T12:04:59 UYT" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:04:59 UYT" name="close" finished-at="2021-08-12T12:05:00 UYT" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:05:13 UYT" name="close" finished-at="2021-08-12T12:05:13 UYT" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WSR.WSRs.WSRPageTest@74d1dc36]" started-at="2021-08-12T12:05:15 UYT" name="close" finished-at="2021-08-12T12:05:16 UYT" duration-ms="782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- WSR.WSRs.WSRPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 02 11:49:43 UYT 2021</td>
+<td>Started on:</td><td>Thu Aug 12 12:03:12 UYT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12472 ms)</td>
+<tr><td>Total time:</td><td>124 seconds (124495 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,56 +67,93 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='WSR.WSRs.TestDataTest.data()'><b>data</b><br>Test class: WSR.WSRs.TestDataTest</td>
-<td><div><pre>org.junit.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[titulo equivocado]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at WSR.WSRs.TestDataTest.data(TestDataTest.java:40)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1950117092", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1950117092'><pre>org.junit.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[titulo equivocado]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at WSR.WSRs.TestDataTest.data(TestDataTest.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>8</td>
-<td>WSR.WSRs.TestDataTest@8458f04</td></tr>
+<td title='WSR.WSRs.WSRPageTest.createNewHeaderWithWrongInput()'><b>createNewHeaderWithWrongInput</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>34</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.wsrBodyValidationDaysFieldsEmpty()'><b>wsrBodyValidationDaysFieldsEmpty</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>46</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.employeeEditHeaderCancelAndValidate()'><b>employeeEditHeaderCancelAndValidate</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>20</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.createNewHeaderWithoutProperEmail()'><b>createNewHeaderWithoutProperEmail</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>25</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.wsrBodyValidationExtraHours()'><b>wsrBodyValidationExtraHours</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>38</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.wsrBodyValidateSprintDatesSameDate()'><b>wsrBodyValidateSprintDatesSameDate</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>45</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.wsrBodyValidateSprintDatesEndBeforeStart()'><b>wsrBodyValidateSprintDatesEndBeforeStart</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>47</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.employeeEditHeader()'><b>employeeEditHeader</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>20</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.createNewHeader()'><b>createNewHeader</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>26</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.errorCreatingHeaderOneAllowedPerUser()'><b>errorCreatingHeaderOneAllowedPerUser</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>24</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.wsrBodyValidationStoriesAmount()'><b>wsrBodyValidationStoriesAmount</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>26</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.createNewHeaderWithoutName()'><b>createNewHeaderWithoutName</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>27</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.wsrBodyCreation()'><b>wsrBodyCreation</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>35</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.createNewHeaderWithoutUser()'><b>createNewHeaderWithoutUser</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>25</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.wsrBodyValidationFieldsPresent()'><b>wsrBodyValidationFieldsPresent</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>23</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
+<tr>
+<td title='WSR.WSRs.WSRPageTest.wsrSendRecordToManager()'><b>wsrSendRecordToManager</b><br>Test class: WSR.WSRs.WSRPageTest</td>
+<td></td>
+<td>17</td>
+<td>WSR.WSRs.WSRPageTest@74d1dc36</td></tr>
 </table><p>
 </body>
 </html>

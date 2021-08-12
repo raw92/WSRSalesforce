@@ -2,16 +2,19 @@ package pageObjects;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LandingPage {
+public class NavigationPage {
 
 	public WebDriver driver;
 	JavascriptExecutor js;
+	
+	public String xpathNavBarHeader = "//a[contains(@title,'$BarName')]";
 
 	@FindBy(css = ".slds-icon-waffle")
 	private WebElement square;
@@ -21,25 +24,14 @@ public class LandingPage {
 
 	@FindBy(xpath = "//p[@class='slds-truncate']")
 	private WebElement appSearcherElement;
-
-	
 	
 	// Class Constructor
-	public LandingPage(WebDriver driver) throws IOException {
+	public NavigationPage(WebDriver driver) throws IOException {
 
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		js = (JavascriptExecutor) driver;
-		//ASsert validar titulo	
 	}
-
-	
-//After getting to Home/Landing page i click at the Square at the up/left corner then type "WSR" and click on it to access the WSR page
-//	public void getWSR() {
-//		js.executeScript("arguments[0].click();", square);
-//		inputSearch.sendKeys("WSR");
-//		js.executeScript("arguments[0].click();", WSR);
-//	}
 	
 	public void getToPage(String arg) {
 		js.executeScript("arguments[0].click();", square);
@@ -50,7 +42,12 @@ public class LandingPage {
 	//return the square options element from the page
 	public WebElement getSquare() {
 		return square;
-		
+	}
+	
+	
+	public void getToTab(String arg) throws IOException {
+		// looks for element containing the argument from the parameter and then click it
+		js.executeScript("arguments[0].click();", driver.findElement(By.xpath(xpathNavBarHeader.replace("$BarName", arg))));
 	}
 	
 	

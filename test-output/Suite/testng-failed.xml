@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="WSR.WSRs.Listeners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
-      <class name="WSR.WSRs.TestDataTest">
+      <class name="WSR.WSRs.WSRPageTest">
         <methods>
-          <include name="close"/>
           <include name="setup"/>
-          <include name="data"/>
+          <include name="errorCreatingHeaderOneAllowedPerUser"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- WSR.WSRs.TestDataTest -->
+      </class> <!-- WSR.WSRs.WSRPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
